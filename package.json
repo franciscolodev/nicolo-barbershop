@@ -1,0 +1,8 @@
+{
+  "name": "nicolo-barbershop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/franciscolodev/nicolobarbershop.git",
+  "author": "Fran <franciscolodev@gmail.com>",
+  "license": "MIT"
+}
