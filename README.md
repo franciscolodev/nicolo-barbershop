@@ -7,8 +7,8 @@
 
 # Nicolas López
 
-Una página sensilla para un amigo barbero, utilizando HTML, CSS y una pizca de JavaScript.
+Una página sensilla para una barberia de mi ciudad
 
 # 🛠️ Tecnologias
 
-💻HTML, CSS y JavaScript
+💻HTML, CSS y una pizca de JavaScript
