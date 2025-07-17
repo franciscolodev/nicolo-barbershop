@@ -5,7 +5,7 @@
 <div align="center">
     <h3> Tu barbero de confianza </h3>
 
-# Nicolas López
+# @Nicolo.Barbershop
 
 Una página sensilla para una barberia de mi ciudad
 
