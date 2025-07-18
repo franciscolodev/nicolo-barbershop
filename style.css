@@ -212,6 +212,12 @@ html {
     background-color: var(--text-gray);
 }
 
+.home .home-info .home-info-button:hover {
+transform: scale(1.05);
+    background-color: #000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
 .home .home-img {
     width: 30%;
     height: auto;
@@ -231,6 +237,29 @@ html {
     width: 100%;
 }
 /* End Home Section */
+.cortes-header {
+    width: 100%;
+    min-height: 50vh;
+    padding: 10rem 5rem;
+    flex-direction: column;
+}
+
+.cortes-header .cortes-info {
+    text-align: center;
+}
+
+.cortes-header .cortes-info .cortes-info-heading {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: #056388;
+}
+
+.precios {
+    font-size: 3rem;
+    color: #056388;
+    margin-top: 25px;
+}
 
 /* About Section */
 .about {
@@ -272,6 +301,7 @@ html {
 
 .about .about-info .about-info-button:hover {
     background-color: #056388;
+    transform: scale(1.05);
 }
 
 .about .about-img .about-img-wrapper {
@@ -285,6 +315,11 @@ html {
 .about .about-img .about-img-wrapper img {
     height: 100%;
     width: 100%;
+}
+
+.about .about-img .about-img-wrapper img:hover {
+    transform: scale(1.03);
+
 }
 
 .about .about-img .about-img-wrapper::after {
@@ -416,6 +451,47 @@ html {
 }
 /* End Services Section */
 
+/* Cortes Section */
+#cortes {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#cortes h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+.galeria img {
+    height: 150px;
+}
+}
+/* End Cortes Section */
+
 /* Hire Section */
 .hire {
     min-height: 10vh;
@@ -446,15 +522,18 @@ html {
 
 .hire .hire-button:hover {
     background-color: #056388;
-} 
+    transform: scale(1.05);
+}
+
 /* End Hire Section */
+
 
 /* Footer Section */
     .footer {
         min-height: 20vh;
         width: 100%;
         background-color: black;
-        color: #056388;
+        color: #FFF;
         flex-direction: column;
         text-align: center;
         padding: 5rem;
@@ -466,6 +545,7 @@ html {
 
     .footer .footer-contact .footer-contact-heading {
         font-size:  2.5rem;
+        color: #056388 ;
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-bottom: 10px;
@@ -482,6 +562,14 @@ html {
         font-size: 2.2rem;
         margin: .4rem;
         display: inline-block;
+    }
+
+    .footer-social-follow-heading{
+        font-size: 2rem;
+        color: #056388;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
     }
 
     .footer .footer-social-follow .footer-social-icon a:hover {
@@ -501,7 +589,7 @@ html {
     }
 
     .footer-bottom p a {
-        color: #fff;
+        color: white;
         text-transform: capitalize;
         text-decoration: none;
         opacity: .4;
