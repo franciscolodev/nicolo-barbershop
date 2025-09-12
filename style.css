@@ -49,7 +49,7 @@ html {
 
 .nav-bar .brand a {
     font-family: 'Bilbo Swash Caps', sans-serif;
-    font-size: 3rem;
+    font-size: 1.5vw; /* Ajusta el tamaño a un porcentaje del ancho de la pantalla */
     text-decoration: none;
     color: var(--white-color);
 }
@@ -681,3 +681,4 @@ transform: scale(1.03);
     }
 
 }
+
