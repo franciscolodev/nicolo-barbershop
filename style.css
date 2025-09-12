@@ -57,14 +57,14 @@ html {
 /* Media query para pantallas de móviles */
 @media (max-width: 600px) {
     .nav-bar .brand a {
-        font-size: 4rem; /* Tamaño fijo para pantallas pequeñas */
+        font-size: 3rem; /* Tamaño fijo para pantallas pequeñas */
     }
 }
 
 /* Media query para pantallas de tabletas o pantallas medianas */
 @media (max-width: 1024px) {
     .nav-bar .brand a {
-        font-size: 5rem; /* Tamaño más pequeño en tabletas */
+        font-size: 3rem; /* Tamaño más pequeño en tabletas */
     }
 }
 
@@ -696,6 +696,7 @@ transform: scale(1.03);
     }
 
 }
+
 
 
 
