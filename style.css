@@ -49,10 +49,25 @@ html {
 
 .nav-bar .brand a {
     font-family: 'Bilbo Swash Caps', sans-serif;
-    font-size: 2vw; /* Ajusta el tamaño a un porcentaje del ancho de la pantalla */
+    font-size: 1.5vw; /* Ajusta el tamaño a un porcentaje del ancho de la pantalla */
     text-decoration: none;
     color: var(--white-color);
 }
+
+/* Media query para pantallas de móviles */
+@media (max-width: 600px) {
+    .nav-bar .brand a {
+        font-size: 4rem; /* Tamaño fijo para pantallas pequeñas */
+    }
+}
+
+/* Media query para pantallas de tabletas o pantallas medianas */
+@media (max-width: 1024px) {
+    .nav-bar .brand a {
+        font-size: 5rem; /* Tamaño más pequeño en tabletas */
+    }
+}
+
 
 .nav-bar .nav-list {
     display: flex;
@@ -681,5 +696,6 @@ transform: scale(1.03);
     }
 
 }
+
 
 
