@@ -64,7 +64,7 @@ html {
 /* Media query para pantallas de tabletas o pantallas medianas */
 @media (max-width: 1024px) {
     .nav-bar .brand a {
-        font-size: 3rem; /* Tamaño más pequeño en tabletas */
+        font-size: 2rem; /* Tamaño más pequeño en tabletas */
     }
 }
 
@@ -696,6 +696,7 @@ transform: scale(1.03);
     }
 
 }
+
 
 
 
